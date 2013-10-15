@@ -24,3 +24,11 @@ User roles
 
 
 We're working on a more flexible version that can be used by any business.
+
+//Terms and Conditions
+
+    May you do good and not evil
+    
+    May you find forgiveness for yourself and forgive others
+    
+    May you share freely, never taking more than you give
