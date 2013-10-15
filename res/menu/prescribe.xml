@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/m_prescribe"
+        android:icon="@android:drawable/ic_menu_add"
+        android:showAsAction="always"
+        android:title="Prescribe a drug"/>
+    <item
+        android:id="@+id/m_view_prescriptions"
+        android:icon="@drawable/collections_cloud"
+        android:showAsAction="always"
+        android:title="View your recent prescriptions"/>
+    <item
+        android:id="@+id/m_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:showAsAction="always"
+        android:title="Search"/>
+
+</menu>

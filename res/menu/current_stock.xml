@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/m_get_data"
+        android:icon="@drawable/collections_cloud"
+        android:showAsAction="always"
+        android:title="View your inventory"/>
+    <item
+        android:id="@+id/m_add_stock_items"
+        android:icon="@android:drawable/ic_menu_add"
+        android:showAsAction="always"
+        android:title="Add a new stock item"/>
+    <item
+        android:id="@+id/m_enter_sale"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:showAsAction="always"
+        android:title="Enter a sale"/>
+    <item
+        android:id="@+id/m_view_checkout"
+        android:icon="@android:drawable/ic_menu_view"
+        android:showAsAction="always"
+        android:title="View sales"/>
+    <item
+        android:id="@+id/m_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:showAsAction="always"
+        android:title="Search"/>
+
+</menu>

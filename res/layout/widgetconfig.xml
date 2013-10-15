@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff7e27"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="300dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="300dp"
+        android:src="@drawable/ic_launcher" 
+        android:background="@drawable/selected_image_border"/>
+
+    <Button
+        android:id="@+id/bwidgetconfig"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/list_selector"
+        android:padding="20dp"
+        android:text="Done" />
+
+</LinearLayout>

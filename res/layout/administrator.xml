@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    <android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content_frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffe897"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layout_bg"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <Button
+            android:id="@+id/busers"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/list_selector"
+            android:text="Users"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/badmindrugs"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/list_selector"
+            android:text="Drugs"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/banalytics"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/list_selector"
+            android:text="Analytics"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/bprovider"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/list_selector"
+            android:text="Provider"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/bdesk"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/list_selector"
+            android:text="Receptionist"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+</LinearLayout><!--
+<ListView
+        android:id="@+id/left_drawer"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:background="#111"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"
+        android:gravity="start" >
+    </ListView>
+
+</android.support.v4.widget.DrawerLayout>
+-->

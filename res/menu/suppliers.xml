@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/m_view_suppliers"
+        android:icon="@drawable/collections_cloud"
+        android:showAsAction="always"
+        android:title="View your suppliers"/>
+    <item
+        android:id="@+id/m_add_suppliers"
+        android:icon="@android:drawable/ic_menu_add"
+        android:showAsAction="always"
+        android:title="Add a supplier"/>
+    <item
+        android:id="@+id/m_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:showAsAction="always"
+        android:title="Search"/>
+
+</menu>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/gradient_bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/tvconfiginput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medallion Widget"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/bwidgetopen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/list_selector"
+        android:padding="20dp"
+        android:text="Open App"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/tvwidgetupdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Theory of Everything"
+        android:textColor="#ffffff" />
+
+</LinearLayout>

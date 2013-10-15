@@ -1,0 +1,81 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <FrameLayout
+            android:id="@+id/content_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ListView
+            android:id="@+id/left_drawer"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:background="#111"
+            android:choiceMode="singleChoice"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="0dp" />
+    </android.support.v4.widget.DrawerLayout>
+
+    <SlidingDrawer
+        android:id="@+id/slidingDrawer1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:content="@+id/content"
+        android:handle="@+id/handle"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/handle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/ic_dialog_info"
+            android:textColor="#ffffff" />
+
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gradient_bg"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/bhelp"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:background="@drawable/list_selector"
+                android:onClick="clicked"
+                android:padding="10dp"
+                android:text="Help"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/babout"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:background="@drawable/list_selector"
+                android:onClick="clicked"
+                android:padding="10dp"
+                android:text="About"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/breview"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:background="@drawable/list_selector"
+                android:onClick="clicked"
+                android:padding="10dp"
+                android:text="Review"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+    </SlidingDrawer>
+
+</FrameLayout>

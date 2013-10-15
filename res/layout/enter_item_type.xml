@@ -1,0 +1,144 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:padding="20dp" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="25"
+            android:text="Name"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/et_new_item_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="25" >
+        </EditText>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="25"
+            android:text="Strength"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/et_new_item_strength"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="25" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="25"
+            android:text="Unit to patient"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Spinner
+            android:id="@+id/sp_unit_to_patient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="25" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="25"
+            android:text="Sales price (Ksh) to patient"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/et_new_item_sales_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="25" 
+            android:text="0"/>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="25"
+            android:text="Required Threshold"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/et_new_item_required_threshold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="25" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="25"
+            android:text="Category"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Spinner
+            android:id="@+id/sp_new_item_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="25" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="25"
+            android:text="Location"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Spinner
+            android:id="@+id/sp_new_item_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="25" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="25"
+            android:text="Uses"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/et_new_item_uses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="25" />
+
+        <Button
+            android:id="@+id/b_new_item_add_another"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/list_selector"
+            android:ems="25"
+            android:text="Add another Item"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/b_new_item_finish"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/list_selector"
+            android:ems="25"
+            android:text="Finish"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+</ScrollView>

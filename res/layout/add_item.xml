@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="25"
+            android:text="Stock Type"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Spinner
+            android:id="@+id/sp_stock_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="25" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="25"
+            android:text="Transaction Type"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Spinner
+            android:id="@+id/sp_transaction_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="25" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="25"
+            android:text="Quantity"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/et_item_quantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="25"
+            android:text="0" >
+        </EditText>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="25"
+            android:text="Expiration Date"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <DatePicker
+            android:id="@+id/dp_expiration_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:ems="25" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="25"
+            android:text="Subtotal Cost"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/et_subtotal_cost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="25"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/b_add_item"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/list_selector"
+            android:ems="25"
+            android:text="Add another item"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/b_save"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/list_selector"
+            android:ems="25"
+            android:text="Save"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,60 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffe897" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffe897"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/header_bg"
+            android:gravity="center_horizontal"
+            android:padding="10dip"
+            android:text="Transaction Specs"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+            android:textStyle="bold" >
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/layout_bg"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:editable="false"
+                android:scrollbars="vertical"
+                android:layout_height="wrap_content"
+                android:text="List Of Transactions"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/transaction_specs"
+            android:layout_width="fill_parent"
+            android:layout_height="300dp"
+            android:editable="false"
+            android:verticalScrollbarPosition="defaultPosition"
+            android:ems="10"
+            android:inputType="textMultiLine" >
+
+            <requestFocus />
+        </EditText>
+
+    </LinearLayout>
+
+</ScrollView>

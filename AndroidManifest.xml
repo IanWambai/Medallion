@@ -1,0 +1,218 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.medallion"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:icon="@drawable/circle_orange"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Sherlock" >
+        <activity
+            android:name="com.medallion.fragments.Home"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.medallion.forms.MainActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.medallion.forms.AddStockItems"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Add a Stock Item"
+            android:theme="@style/Theme.Sherlock.Dialog" >
+        </activity>
+        <activity
+            android:name="com.medallion.forms.AddItem"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Add a Stock Item"
+            android:theme="@style/Theme.Sherlock.Dialog" >
+        </activity>
+        <activity
+            android:name="com.medallion.forms.EnterStockSale"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Enter a Sale"
+            android:theme="@style/Theme.Sherlock.Dialog" >
+        </activity>
+        <activity
+            android:name="com.medallion.forms.ViewStockCheckouts"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="View Checkouts"
+            android:theme="@style/Theme.Sherlock.Dialog" >
+        </activity>
+        <activity
+            android:name="com.medallion.lists.NotificationsData"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.medallion.lists.StockData"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.medallion.lists.TransactionData"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.medallion.functions.Analytics"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.medallion.forms.AddSupplier"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Add a Supplier"
+            android:theme="@style/Theme.Sherlock.Dialog" >
+        </activity>
+        <activity
+            android:name="com.medallion.lists.SupplierData"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.medallion.lists.PrescriptionData"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.medallion.forms.PrescribeDrug"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Sherlock.Dialog" >
+        </activity>
+        <activity
+            android:name="com.medallion.lists.UsersData"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.medallion.specifications.UserSpecs"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.medallion.specifications.SupplierSpecs"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.medallion.specifications.PrescriptionSpecs"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.medallion.specifications.ItemSpecs"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.medallion.specifications.StockSpecs"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.medallion.specifications.NotificationSpecs"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.medallion.specifications.TransactionSpecs"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.medallion.specifications.CheckoutSpecs"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.medallion.forms.EnterItemType"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Add a new Item Type"
+            android:theme="@style/Theme.Sherlock.Dialog" >
+        </activity>
+        <activity
+            android:name="com.medallion.lists.ItemsData"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.medallion.functions.Preferences"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.medallion.forms.SignIn"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.medallion.forms.SignUp"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.medallion.forms.Password"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.medallion.forms.Confirm"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.medallion.utility.Help"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Help"
+            android:theme="@style/Theme.Sherlock.Dialog" >
+        </activity>
+        <activity
+            android:name="com.medallion.utility.About"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="About"
+            android:theme="@style/Theme.Sherlock.Dialog" >
+        </activity>
+        <activity android:name="org.achartengine.GraphicalActivity" >
+        </activity>
+
+        <receiver
+            android:name="com.medallion.functions.Widget"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget" />
+        </receiver>
+
+        <activity
+            android:name="com.medallion.functions.WidgetConfig"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+            </intent-filter>
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+
+</manifest>

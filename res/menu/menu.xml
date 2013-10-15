@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/msettings"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:titleCondensed="Settings"/>
+    <item
+        android:id="@+id/mlogout"
+        android:icon="@android:drawable/ic_menu_revert"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:titleCondensed="Sign Out"/>
+    <item
+        android:id="@+id/mexit"
+        android:icon="@android:drawable/ic_lock_power_off"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:titleCondensed="Exit"/>
+
+</menu>
