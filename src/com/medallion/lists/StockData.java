@@ -48,8 +48,8 @@ public class StockData extends SherlockListActivity {
 		// TODO Auto-generated method stub
 		// Change these IDs
 		Parse.initialize(getApplicationContext(),
-				"9srShDsfwTBTz2YvZxUgn54ajlF8tJiakIMnjNQM",
-				"uPo0AHDOeExNlS0a5FrWGzEsatB93TqrgpAfRYTE");
+				"Parse Key",
+				"Parse Key");
 		
 		super.onCreate(savedInstanceState);
 		
