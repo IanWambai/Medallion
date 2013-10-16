@@ -52,8 +52,8 @@ public class PrescriptionData extends SherlockListActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		Parse.initialize(getApplicationContext(),
-				"9srShDsfwTBTz2YvZxUgn54ajlF8tJiakIMnjNQM",
-				"uPo0AHDOeExNlS0a5FrWGzEsatB93TqrgpAfRYTE");
+				"Parse Key",
+				"Parse Key");
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.prescription_data);
 		listView1=getListView();
